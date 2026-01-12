@@ -13,8 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "서든어택 | 서든어택디스코드 | 서든어택라운지 | SP거래소 | 서든어택자랭",
-  description: "서든어택 커뮤니티, 서든어택디스코드, 서든어택라운지, SP거래소, 서든어택자랭, 서든클랜구하기, 서든친목, 서든라디오 정보를 제공합니다.",
+  title:
+    "서든어택 | 서든어택디스코드 | 서든어택라운지 | SP거래소 | 서든어택자랭",
+  description:
+    "서든어택 커뮤니티, 서든어택디스코드, 서든어택라운지, SP거래소, 서든어택자랭, 서든클랜구하기, 서든친목, 서든라디오 정보를 제공합니다.",
   keywords: [
     "서든어택",
     "서든어택디스코드",
@@ -27,9 +29,16 @@ export const metadata: Metadata = {
     "서든어택 커뮤니티",
     "서든어택 정보",
   ],
+  verification: {
+    google: "Ej4UxHUpyl6sz3yMFgCHXxAopw1zmz5AW4CZDKdyPys",
+    other: {
+      "naver-site-verification": "5c4cdd751a7df3d785d46f53064cd66954437b8f",
+    },
+  },
   openGraph: {
     title: "서든어택 | 서든어택디스코드 | 서든어택라운지 | SP거래소",
-    description: "서든어택 커뮤니티, 서든어택디스코드, 서든어택라운지, SP거래소, 서든어택자랭 정보 제공",
+    description:
+      "서든어택 커뮤니티, 서든어택디스코드, 서든어택라운지, SP거래소, 서든어택자랭 정보 제공",
     type: "website",
   },
 };
